@@ -1,1 +1,15 @@
-
+md SoftDevI
+cd .\SoftDevI
+md Unit01
+cd .\Unit01
+New-Item file01.txt
+copy .\file01.txt file02.txt
+md Assignment01
+cd .\Assignment01
+md Rachel
+cd .\Rachel
+Move-Item 'C:\Users\scott\SoftDevI\Unit01\file02.txt' 'C:\Users\scott\SoftDevI\Unit01\Assignment01\Rachel'
+start .\file02.txt
+cd 'C:\Users\scott\SoftDevI\Unit01'
+rm .\Assignment01
+y
